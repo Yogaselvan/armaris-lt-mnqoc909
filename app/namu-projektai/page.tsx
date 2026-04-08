@@ -1,3 +1,4 @@
+"use client";
 import { Button, Card, CardBody, CardHeader, CardFooter, Input, Textarea, Divider, Link, Chip } from "@heroui/react";
 import { IconName } from "lucide-react";
 import { useRef } from "react";

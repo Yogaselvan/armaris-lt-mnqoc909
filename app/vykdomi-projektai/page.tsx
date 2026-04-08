@@ -1,3 +1,4 @@
+"use client";
 import { Button, Card, CardBody } from "@heroui/react";
 import Link from "next/link";
 
