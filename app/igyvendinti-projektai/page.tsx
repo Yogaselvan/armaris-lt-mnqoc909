@@ -1,6 +1,6 @@
 "use client";
 import { Button, Card, CardBody, CardHeader, CardFooter } from "@heroui/react";
-import { ArrowRight, Building2, Check, ChevronRight } from "lucide-react";
+import { ArrowRight, Building2, Check, ChevronRight, Star, Users } from "lucide-react";
 import { useRef } from "react";
 import { useHeroAnimation, useScrollReveal, useMicroInteractions } from "@/hooks/useGsapAnimations";
 
