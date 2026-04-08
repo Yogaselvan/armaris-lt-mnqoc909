@@ -2,7 +2,7 @@
 import { Button, Card, CardBody, CardHeader, CardFooter } from "@heroui/react";
 import { ChevronRight, ArrowRight, Check, Users, Building2, Star } from "lucide-react";
 import { useRef } from "react";
-// Removed unavailable import: @/hooks/useGsapAnimations
+import { useHeroAnimation, useScrollReveal, useMicroInteractions } from "@/hooks/useGsapAnimations";
 
 export default function IgyvendintiProjektai() {
   const containerRef = useRef<HTMLDivElement>(null);

@@ -2,7 +2,7 @@
 import { Button, Card, CardBody, CardHeader, CardFooter, Input, Textarea, Divider, Link, Chip } from "@heroui/react";
 import { IconName } from "lucide-react";
 import { useRef } from "react";
-// Removed unavailable import: @/hooks/useGsapAnimations
+import { useHeroAnimation, useScrollReveal, useMicroInteractions } from "@/hooks/useGsapAnimations";
 
 export default function HomePage() {
   const containerRef = useRef<HTMLDivElement>(null);
