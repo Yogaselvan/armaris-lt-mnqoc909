@@ -1,6 +1,5 @@
 "use client";
 import { Button, Card, CardBody, CardHeader, CardFooter, Input, Textarea, Divider, Link, Chip } from "@heroui/react";
-import { IconName } from "lucide-react";
 import { useRef } from "react";
 import { useHeroAnimation, useScrollReveal, useMicroInteractions } from "@/hooks/useGsapAnimations";
 
@@ -36,7 +35,7 @@ export default function HomePage() {
                 size="lg"
                 className="text-white font-semibold px-8 py-4 text-lg"
                 style={{ background: "linear-gradient(135deg, #d4462a, #3c140c)" }}
-                endContent={<IconName name="arrow-right" />}
+                endContent={→}
               >
                 Nemokama konsultacija
               </Button>
@@ -91,14 +90,14 @@ export default function HomePage() {
               <div className="grid grid-cols-2 gap-6">
                 <Card className="bg-content1/60 backdrop-blur-xl border border-white/10" data-hover-lift>
                   <CardBody className="p-6">
-                    <IconName name="building-2" className="w-10 h-10 text-primary mb-4" />
+                    →
                     <h3 className="text-2xl font-bold text-foreground">500+</h3>
                     <p className="text-default-500">Įgyvendintų projektų</p>
                   </CardBody>
                 </Card>
                 <Card className="bg-content1/60 backdrop-blur-xl border border-white/10" data-hover-lift>
                   <CardBody className="p-6">
-                    <IconName name="users" className="w-10 h-10 text-secondary mb-4" />
+                    →
                     <h3 className="text-2xl font-bold text-foreground">15</h3>
                     <p className="text-default-500">Patyrusių meistrų</p>
                   </CardBody>
@@ -126,7 +125,7 @@ export default function HomePage() {
             <Card className="bg-content1/60 backdrop-blur-xl border border-white/10 hover:border-primary/30 transition-all duration-300" data-hover-lift>
               <CardBody className="p-8">
                 <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-primary to-tertiary flex items-center justify-center mb-6">
-                  <IconName name="pencil-ruler" className="w-8 h-8 text-white" />
+                  →
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-4">Interjero dizainas</h3>
                 <p className="text-default-500 mb-6 leading-relaxed">
@@ -134,14 +133,14 @@ export default function HomePage() {
                   3D vizualizacijos prieš pradedant gamybą.
                 </p>
                 <Link className="text-primary font-semibold flex items-center gap-2 hover:gap-4 transition-all">
-                  Sužinoti daugiau <IconName name="chevron-right" className="w-4 h-4" />
+                  Sužinoti daugiau →
                 </Link>
               </CardBody>
             </Card>
             <Card className="bg-content1/60 backdrop-blur-xl border border-white/10 hover:border-primary/30 transition-all duration-300" data-hover-lift>
               <CardBody className="p-8">
                 <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-secondary to-tertiary flex items-center justify-center mb-6">
-                  <IconName name="crown" className="w-8 h-8 text-white" />
+                  →
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-4">Baldų gamyba</h3>
                 <p className="text-default-500 mb-6 leading-relaxed">
@@ -149,14 +148,14 @@ export default function HomePage() {
                   kambario įranga ir kiti pritaikyti sprendimai.
                 </p>
                 <Link className="text-primary font-semibold flex items-center gap-2 hover:gap-4 transition-all">
-                  Sužinoti daugiau <IconName name="chevron-right" className="w-4 h-4" />
+                  Sužinoti daugiau →
                 </Link>
               </CardBody>
             </Card>
             <Card className="bg-content1/60 backdrop-blur-xl border border-white/10 hover:border-primary/30 transition-all duration-300" data-hover-lift>
               <CardBody className="p-8">
                 <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-tertiary to-primary flex items-center justify-center mb-6">
-                  <IconName name="ruler" className="w-8 h-8 text-white" />
+                  →
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-4">Matavimas ir montavimas</h3>
                 <p className="text-default-500 mb-6 leading-relaxed">
@@ -164,7 +163,7 @@ export default function HomePage() {
                   kiekviename įgyvendinimo etape.
                 </p>
                 <Link className="text-primary font-semibold flex items-center gap-2 hover:gap-4 transition-all">
-                  Sužinoti daugiau <IconName name="chevron-right" className="w-4 h-4" />
+                  Sužinoti daugiau →
                 </Link>
               </CardBody>
             </Card>
@@ -261,7 +260,7 @@ export default function HomePage() {
               className="bg-white text-primary font-semibold px-10 py-6 text-lg"
               style={{ background: "#ffffff" }}
             >
-              <IconName name="phone" className="w-5 h-5 mr-2" />
+              →
               Skambinti dabar
             </Button>
             <Button
@@ -269,7 +268,7 @@ export default function HomePage() {
               variant="bordered"
               className="border-white text-white hover:bg-white/20 px-10 py-6 text-lg"
             >
-              <IconName name="mail" className="w-5 h-5 mr-2" />
+              →
               Rašyti el. laišką
             </Button>
           </div>
@@ -332,7 +331,7 @@ export default function HomePage() {
                 <Card className="bg-content1/60 backdrop-blur-xl border border-white/10" data-hover-lift>
                   <CardBody className="p-8 flex items-start gap-6">
                     <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-primary to-tertiary flex items-center justify-center flex-shrink-0">
-                      <IconName name="map-pin" className="w-7 h-7 text-white" />
+                      →
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-foreground mb-2">Adresas</h3>
@@ -343,7 +342,7 @@ export default function HomePage() {
                 <Card className="bg-content1/60 backdrop-blur-xl border border-white/10" data-hover-lift>
                   <CardBody className="p-8 flex items-start gap-6">
                     <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-secondary to-tertiary flex items-center justify-center flex-shrink-0">
-                      <IconName name="phone" className="w-7 h-7 text-white" />
+                      →
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-foreground mb-2">Telefonas</h3>
@@ -354,7 +353,7 @@ export default function HomePage() {
                 <Card className="bg-content1/60 backdrop-blur-xl border border-white/10" data-hover-lift>
                   <CardBody className="p-8 flex items-start gap-6">
                     <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-tertiary to-primary flex items-center justify-center flex-shrink-0">
-                      <IconName name="mail" className="w-7 h-7 text-white" />
+                      →
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-foreground mb-2">El. paštas</h3>
@@ -365,7 +364,7 @@ export default function HomePage() {
                 <Card className="bg-content1/60 backdrop-blur-xl border border-white/10" data-hover-lift>
                   <CardBody className="p-8 flex items-start gap-6">
                     <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center flex-shrink-0">
-                      <IconName name="clock" className="w-7 h-7 text-white" />
+                      →
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-foreground mb-2">Darbo laikas</h3>
@@ -391,15 +390,15 @@ export default function HomePage() {
             </div>
             <div className="flex gap-4">
               <Chip className="bg-white/10 text-white border border-white/20" data-hover-lift>
-                <IconName name="star" className="w-4 h-4 mr-1" />
+                →
                 30 metų patirties
               </Chip>
               <Chip className="bg-white/10 text-white border border-white/20" data-hover-lift>
-                <IconName name="check" className="w-4 h-4 mr-1" />
+                →
                 Kokybės garantija
               </Chip>
               <Chip className="bg-white/10 text-white border border-white/20" data-hover-lift>
-                <IconName name="users" className="w-4 h-4 mr-1" />
+                →
                 500+ projektų
               </Chip>
             </div>

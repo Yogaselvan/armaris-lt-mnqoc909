@@ -1,6 +1,5 @@
 "use client";
 import { Button, Card, CardBody, CardHeader, CardFooter, Input, Textarea, Divider, Link, Chip } from "@heroui/react";
-import { IconName } from "lucide-react";
 import { useRef } from "react";
 import { useHeroAnimation, useScrollReveal, useMicroInteractions } from "@/hooks/useGsapAnimations";
 
@@ -116,7 +115,7 @@ export default function NamuProjektai() {
                   size="lg"
                   className="font-semibold text-white shadow-lg shadow-primary/30"
                   style={{ background: 'linear-gradient(135deg, #d4462a, #3c140c)' }}
-                  endContent={<IconName icon="ArrowRight" />}
+                  endContent={→}
                 >
                   Žiūrėti Projektus
                 </Button>
@@ -143,7 +142,7 @@ export default function NamuProjektai() {
                 <div className="absolute -bottom-6 -left-6 bg-content1/80 backdrop-blur-xl border border-white/10 rounded-2xl p-6 shadow-xl">
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary to-tertiary flex items-center justify-center">
-                      <IconName icon="Building2" className="w-6 h-6 text-white" />
+                      →
                     </div>
                     <div>
                       <p className="text-2xl font-bold text-foreground">250+</p>
@@ -215,15 +214,15 @@ export default function NamuProjektai() {
                     </h3>
                     <div className="flex flex-wrap gap-3 text-sm text-default-500">
                       <span className="flex items-center gap-1">
-                        <IconName icon="Building2" className="w-4 h-4 text-secondary" />
+                        →
                         {project.area}
                       </span>
                       <span className="flex items-center gap-1">
-                        <IconName icon="Star" className="w-4 h-4 text-secondary" />
+                        →
                         {project.bedrooms} Kamb.
                       </span>
                       <span className="flex items-center gap-1">
-                        <IconName icon="Clock" className="w-4 h-4 text-secondary" />
+                        →
                         {project.floors} Aukšt.
                       </span>
                     </div>
@@ -239,7 +238,7 @@ export default function NamuProjektai() {
                       size="sm"
                       variant="light"
                       className="text-primary"
-                      endContent={<IconName icon="ArrowRight" className="w-4 h-4" />}
+                      endContent={→}
                     >
                       Detaliau
                     </Button>
@@ -278,7 +277,7 @@ export default function NamuProjektai() {
               >
                 <CardBody className="p-8 text-center">
                   <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-primary to-tertiary flex items-center justify-center shadow-lg shadow-primary/20">
-                    <IconName icon={feature.icon} className="w-8 h-8 text-white" />
+                    →
                   </div>
                   <h3 className="text-lg font-bold text-foreground mb-3">{feature.title}</h3>
                   <p className="text-sm text-default-500 leading-relaxed">{feature.desc}</p>
@@ -433,7 +432,7 @@ export default function NamuProjektai() {
                 <Button
                   size="lg"
                   className="bg-white text-primary font-semibold shadow-xl"
-                  endContent={<IconName icon="Phone" className="w-5 h-5" />}
+                  endContent={→}
                 >
                   Skambinti Dabar
                 </Button>
@@ -441,7 +440,7 @@ export default function NamuProjektai() {
                   size="lg"
                   variant="bordered"
                   className="border-white text-white hover:bg-white/10"
-                  endContent={<IconName icon="Mail" className="w-5 h-5" />}
+                  endContent={→}
                 >
                   Rašyti Laišką
                 </Button>
@@ -455,7 +454,7 @@ export default function NamuProjektai() {
                   <div className="space-y-6">
                     <div className="flex items-center gap-4">
                       <div className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center">
-                        <IconName icon="Phone" className="w-5 h-5 text-white" />
+                        →
                       </div>
                       <div>
                         <p className="text-sm text-white/70">Telefonas</p>
@@ -464,7 +463,7 @@ export default function NamuProjektai() {
                     </div>
                     <div className="flex items-center gap-4">
                       <div className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center">
-                        <IconName icon="Mail" className="w-5 h-5 text-white" />
+                        →
                       </div>
                       <div>
                         <p className="text-sm text-white/70">El. paštas</p>
@@ -473,7 +472,7 @@ export default function NamuProjektai() {
                     </div>
                     <div className="flex items-center gap-4">
                       <div className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center">
-                        <IconName icon="MapPin" className="w-5 h-5 text-white" />
+                        →
                       </div>
                       <div>
                         <p className="text-sm text-white/70">Adresas</p>
@@ -553,7 +552,7 @@ export default function NamuProjektai() {
                   size="lg"
                   className="w-full font-semibold text-white"
                   style={{ background: 'linear-gradient(135deg, #d4462a, #3c140c)' }}
-                  endContent={<IconName icon="ChevronRight" className="w-5 h-5" />}
+                  endContent={→}
                 >
                   Siųsti Užklausą
                 </Button>
@@ -568,7 +567,7 @@ export default function NamuProjektai() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-tertiary flex items-center justify-center">
-                <IconName icon="Building2" className="w-5 h-5 text-white" />
+                →
               </div>
               <span className="text-xl font-bold text-foreground">Armaris.lt</span>
             </div>
