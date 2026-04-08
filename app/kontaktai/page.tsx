@@ -2,6 +2,7 @@
 import { Button, Card, CardBody, CardHeader, CardFooter, Input, Textarea, Divider, Link, Chip } from "@heroui/react";
 import { useRef } from "react";
 import { useHeroAnimation, useScrollReveal, useMicroInteractions } from "@/hooks/useGsapAnimations";
+import { Building, Clock, Mail, Phone } from "lucide-react";
 
 export default function KontaktaiPage() {
   const containerRef = useRef<HTMLDivElement>(null);
