@@ -35,7 +35,7 @@ export default function HomePage() {
                 size="lg"
                 className="text-white font-semibold px-8 py-4 text-lg"
                 style={{ background: "linear-gradient(135deg, #d4462a, #3c140c)" }}
-                endContent={→}
+                endContent={"→"}
               >
                 Nemokama konsultacija
               </Button>

@@ -115,7 +115,7 @@ export default function NamuProjektai() {
                   size="lg"
                   className="font-semibold text-white shadow-lg shadow-primary/30"
                   style={{ background: 'linear-gradient(135deg, #d4462a, #3c140c)' }}
-                  endContent={→}
+                  endContent={"→"}
                 >
                   Žiūrėti Projektus
                 </Button>
@@ -238,7 +238,7 @@ export default function NamuProjektai() {
                       size="sm"
                       variant="light"
                       className="text-primary"
-                      endContent={→}
+                      endContent={"→"}
                     >
                       Detaliau
                     </Button>
@@ -432,7 +432,7 @@ export default function NamuProjektai() {
                 <Button
                   size="lg"
                   className="bg-white text-primary font-semibold shadow-xl"
-                  endContent={→}
+                  endContent={"→"}
                 >
                   Skambinti Dabar
                 </Button>
@@ -440,7 +440,7 @@ export default function NamuProjektai() {
                   size="lg"
                   variant="bordered"
                   className="border-white text-white hover:bg-white/10"
-                  endContent={→}
+                  endContent={"→"}
                 >
                   Rašyti Laišką
                 </Button>
@@ -552,7 +552,7 @@ export default function NamuProjektai() {
                   size="lg"
                   className="w-full font-semibold text-white"
                   style={{ background: 'linear-gradient(135deg, #d4462a, #3c140c)' }}
-                  endContent={→}
+                  endContent={"→"}
                 >
                   Siųsti Užklausą
                 </Button>
